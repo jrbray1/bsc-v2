@@ -1,7 +1,7 @@
 # bsc-v2
 Enhanced version of bsc-v2 providing custom metadata columns for caja, nautilus file managers
 
-The file managers Caja (for MATE) Nemo (Cinammon) and GNOME Files (formerly Nautulius) all have a related code
+The file managers Caja (for MATE), Nemo (Cinammon) and GNOME Files (formerly Nautilus) all have a related code
 base for which bsc-v2.py was written by Giacomo Bordiga to provide custom columns with extra metadata.
 
 The 3 subsequent versions Nautilus columns (https://github.com/atareao/nautilus-columns)
