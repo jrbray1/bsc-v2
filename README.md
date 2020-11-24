@@ -10,8 +10,7 @@ caja columns (https://gist.github.com/infirit/497d589c4dcf44ffe920) nemo-media-c
 fault, not carrying the list view custom columns to the icon view, and not providing consistent title
 metadata for all filetypes.
 
-This repository attempts to fix that for caja-columns and nautilus-columns. nemo-media-columns was changed too
-much to be updated.
+This repository attempts to fix that for caja-columns and nautilus-columns, and populate title for nemo-media-columns.
 
 It populates 'title' from
   Xmp.dc.title for images
@@ -30,4 +29,5 @@ It also renames the 'artist' column 'creator' as more appropriate for images/pdf
 To use
   copy caja-columns.py to /usr/share/caja-python/extensions
   copy nautilus-columns.py to /usr/share/nautilus-python/extensions
+  copy nemo-media-columns.py to /usr/share/nemo-python/extensions
 
